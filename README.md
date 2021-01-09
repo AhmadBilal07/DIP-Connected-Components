@@ -13,5 +13,5 @@ To get better understanding of the connected components
 
 ![bw1](https://user-images.githubusercontent.com/19593774/104093301-92295680-52ab-11eb-9f72-6b5bf11c37b6.JPG)
 ![bw2](https://user-images.githubusercontent.com/19593774/104093242-0adbe300-52ab-11eb-8301-712bc56a54f3.JPG) <br/>
-![bw](https://user-images.githubusercontent.com/19593774/104093240-09121f80-52ab-11eb-95be-1488376385a8.JPG)<br/>
+![bw](https://user-images.githubusercontent.com/19593774/104093466-7e322480-52ac-11eb-87e0-2d0902af5a4a.JPG) <br/>
 ### Bounding Box Images Result
