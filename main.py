@@ -4,7 +4,7 @@ import numpy as np
 from collections import OrderedDict
 
 
-#Path of the Image whose components are to be finded
+#Path of the Image whose components are to be found
 IMG_PATH = "sample images/shapes4.png"
 
 #Opening the img and converting it into Black and white
