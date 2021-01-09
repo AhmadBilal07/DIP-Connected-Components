@@ -31,6 +31,7 @@ print("Columns : ",num_columns)
 cc = 50
 conflictedLabels = {}
 
+#Finding Components
 for i in range(num_rows):
     for j in range (num_columns):
 
@@ -73,11 +74,12 @@ componentsCount = totalComponents.__len__() - 1
 
 print("Total Components: ", componentsCount)
 
+'''
+ComponentsCoordinate:
+[componentNumber,ComponentColourValue,x1,y1,x2,y2]
+'''
 
-#ComponentsCoordinate:
-#[componentNumber,ComponentColourValue,x1,y1,x2,y2]
 componentsList = []
-
 #Finding Coordinates of Connected Components
 for index,i in enumerate(totalComponents[1:]):
     arr = np.where(data == i)
