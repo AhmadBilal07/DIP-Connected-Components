@@ -11,7 +11,7 @@ To get better understanding of the connected components
 ![shapes](https://user-images.githubusercontent.com/19593774/104093136-5cd03900-52aa-11eb-9965-d37f64463e06.png)<br/>
 ### Threshold Images Result <br/>
 
-![bw1](https://user-images.githubusercontent.com/19593774/104093241-0a434c80-52ab-11eb-9ec7-d53c87541d65.JPG) 
+![bw1](https://user-images.githubusercontent.com/19593774/104093301-92295680-52ab-11eb-9f72-6b5bf11c37b6.JPG)
 ![bw2](https://user-images.githubusercontent.com/19593774/104093242-0adbe300-52ab-11eb-8301-712bc56a54f3.JPG) <br/>
 ![bw](https://user-images.githubusercontent.com/19593774/104093240-09121f80-52ab-11eb-95be-1488376385a8.JPG)<br/>
 ### Bounding Box Images Result
