@@ -1,5 +1,5 @@
 # DIP-Connected-Components
-### What does the code ?<br/>
+### What does the code do?<br/>
 This Python code finds Connected Components in an image<br/>
 ### Which libraries does it use ?<br/>
 Numpy and PIL. The code doesn't using Open-CV function.<br/>
