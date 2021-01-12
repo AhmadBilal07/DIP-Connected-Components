@@ -29,8 +29,17 @@ To get better understanding of the connected components
 ![bw2c](https://user-images.githubusercontent.com/19593774/104093632-82ab0d00-52ad-11eb-9943-09eb140b33ee.JPG)<br/>
 ![bwc222](https://user-images.githubusercontent.com/19593774/104245821-c6a53a00-5486-11eb-8431-cb9304b45ff6.JPG)<br/>
 
-### Output -> This information is related to first image only. 
+### Output 
 The code also returns the following information:<br/>
-![R](https://user-images.githubusercontent.com/19593774/104093884-4f697d80-52af-11eb-821d-4bb077f183e3.JPG) <br/>
+#### Result For First Image <br/>
+![result1](https://user-images.githubusercontent.com/19593774/104364898-15131100-5539-11eb-89f5-ed43007ae318.JPG) <br/>
+
+#### Result For Second Image <br/>
+![result2](https://user-images.githubusercontent.com/19593774/104364900-15131100-5539-11eb-8639-0cacbaff9355.JPG) <br/>
+
+#### Result For Third Image <br/>
+![result](https://user-images.githubusercontent.com/19593774/104364893-13494d80-5539-11eb-96c4-07be45a171ef.JPG) <br/>
+
+
 Where Components list contains following information:<br/>
-[componentNumber,ComponentColourValue,x1,y1,x2,y2]
+[componentNumber,x1,y1,x2,y2]
