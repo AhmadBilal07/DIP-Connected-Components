@@ -2,7 +2,7 @@
 from PIL import Image,ImageDraw
 import numpy as np
 from collections import OrderedDict,defaultdict
-
+import random
 
 #Path of the Image whose components are to be found
 IMG_PATH = "sample images/shapes.png"
@@ -115,9 +115,17 @@ print("Components List : ",componentsList)
 # Opening Original Image
 img = Image.open(IMG_PATH)
 
+# Generating distict random colours for bounding boxes
+colors = []
+c = "#d82c07"
+while colors.__len__() != componentsList.__len__():
+    c = ("#{:06x}".format(random.randint(0, 0xFFFFFF)))
+    if c not in colors:
+        colors.append(c)
+
 #Drawing Bounding Box over the connected components:
-for i in componentsList:
+for index,i in enumerate(componentsList):
     draw = ImageDraw.Draw(img)
-    draw.rectangle([i[1],i[2],i[3],i[4]],outline="#FFFF00")
+    draw.rectangle([i[1],i[2],i[3],i[4]],outline=colors[index])
 
 img.show()
